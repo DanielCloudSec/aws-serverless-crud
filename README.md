@@ -106,7 +106,7 @@ Paste Lambda code from `lambda/index.js` (you can create this based on your own 
 
 ## 👁️ Testing the API (Postman)
 
-Import the included file: [`aws-serverless-crud-api.postman_collection.json`](aws-serverless-crud-api.postman_collection.json)
+Import the included file: [lambda-code](https://github.com/DanielCloudSec/aws-serverless-crud/blob/200bfc61809a5514b93cdf9d80fea20ac29cbf8a/lambda-code)
 
 Update the `{{base_url}}` variable to your deployed API Gateway base URL.
 
