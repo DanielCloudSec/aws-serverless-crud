@@ -1,0 +1,24 @@
+
+---
+
+## 📂 Lambda Function Overview
+
+Located in `lambda/index.js`  
+Handles 4 operations:
+- `GET`: Read all tasks
+- `POST`: Create a new task
+- `PATCH`: Update a task
+- `DELETE`: Delete a task
+
+Each operation interacts with the DynamoDB `Tasks` table.
+
+---
+
+## 🧪 Testing the API
+
+1. Use **Postman** or curl to test the API endpoints.
+2. Sample Postman collection is included: `postman-collection.json`
+
+Example GET request:
+```http
+GET https://<your-api-id>.execute-api.<region>.amazonaws.com/production/task
