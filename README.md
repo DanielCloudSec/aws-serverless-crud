@@ -18,6 +18,9 @@ This was created as a personal project based on a tutorial by *Code with Vinnie*
 
 ## 🏛️ Architecture Diagram
 
+![AWS Serverless Arch](https://github.com/user-attachments/assets/7cc85552-215a-4ad9-bcc3-5c02448315d8)
+
+
 ```
 Client (Postman or Web App)
         |
@@ -25,7 +28,8 @@ Client (Postman or Web App)
 API Gateway (REST API)
         |
         v
-AWS Lambda (CRUD handlers)
+AWS Lambda (CRUD handlers)![AWS Serverless Arch](https://github.com/user-attachments/assets/2f775a77-028f-4511-8499-bf8208b839dd)
+
         |
         v
 Amazon DynamoDB ("Tasks" table)
